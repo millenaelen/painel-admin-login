@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Admin</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body class="bg-primary d-flex align-items-center vh-100">
+    
+    <div class="container bg-white">
+
+        <div class="row align-items-center p-3 justify-content-center">  <!--toda classe col deve estar dentro da classe row-->
+
+            <!--<div class="col-md-6 col-lg-6 d-none d-md-block">
+                <img src="img/login.png" alt="" class="img-fluid"> só ver a classe na documentação do bootstrap
+            </div> -->
+
+            <div class="col-6 col-md-4 col-lg-6">
+                <img src="img/login.png" alt="" class="img-fluid"> 
+            </div>
+
+
+            <div class="col-md-8 col-lg-6">
+                <h1>Que bom ter você de volta!</h1>
+                <p>Entre com suas informações para acessar o sistema!</p>
+
+            <form action="#">
+
+                <div class="form-floating mb-3">
+                    <input required type="email" id="email" class="form-control" placeholder="Ex.: nome@exemplo.com">
+                    <label for="email">Digite seu e-mail:</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <img src="img/closed.svg" alt="" width="25" class="olho">
+
+                    <input required type="password" id="senha" class="form-control" placeholder="********">
+                    <label for="senha">Digite sua senha:</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Acessar Sistema</button>
+
+            </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>
